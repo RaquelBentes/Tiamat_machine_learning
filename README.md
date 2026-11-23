@@ -19,7 +19,7 @@ Para realizar tal tarefa, um total de cinco algoritmos foi utilizado (Ridge, k-N
 
 ## Estrutura do repositório
 - `Tiamat(5).ipynb`: notebook principal com todo o desenvolvimento ;
-- 
+- os optunas são referentes à aplicação de cada modelo no optuna.
 
 
 ## Instalações e Instruções
