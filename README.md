@@ -18,6 +18,8 @@ Neste projeto é avaliada a predição do *target* `aveOralM` a partir com conju
 Para realizar tal tarefa, um total de cinco algoritmos foi utilizado (Ridge, k-NN, Árvore de decisão, Floresta aleatória e Gradiente Boosting) e seus hiperparâmetros foram comparados com o uso do Optuna.
 
 ## Estrutura do repositório
+- `Tiamat(5).ipynb`: notebook principal com todo o desenvolvimento ;
+- 
 
 
 ## Instalações e Instruções
