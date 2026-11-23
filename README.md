@@ -27,6 +27,8 @@ Requer Python3. Para as bibliotecas e o dataset, basta abrir o notebook em um am
 
 ## Introdução
 
+Este repositório põe em evidÊncia o notebook `Tiamat(5)`, que explora o dataset Infrared Thermography Temperature, extraído do repositório UCI Machine Learning. A base reúne variáveis como idade, gênero e medições térmicas da face para estimar a temperatura oral a partir de duas variáveis-alvo: aveOralF e aveOralM (sendo esta última o foco desta análise). Na etapa de modelagem, utilizamos a biblioteca Optuna para otimizar os hiperparâmetros de cinco algoritmos de regressão — Ridge, k-NN, Árvore de Decisão, Floresta Aleatória e Gradient Boosting —, avaliando o desempenho por meio de validação cruzada com o objetivo de minimizar o erro (RMSE).
+
 ## Metodologia
 
 **Baseline**: Referência com RMSE de 0.5221 e desvio padrão de 0.0534 na validação cruzada.
@@ -37,7 +39,6 @@ Requer Python3. Para as bibliotecas e o dataset, basta abrir o notebook em um am
 
 **Avaliação Final e Interpretabilidade**: Teste único no conjunto X_teste / y_teste (com gráfico de valor real vs. previsto) e análise de importância por permutação (permutation importance).
 
-## Resultados e discussão
 
 ## Conclusões
 
